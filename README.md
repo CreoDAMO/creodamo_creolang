@@ -4255,8 +4255,4 @@ Developing tests for each component and documenting the usage of the FullStack G
 
 The Creo FullStack Generator will be a powerful tool, enabling rapid development and deployment of full-stack applications in the CreoLang ecosystem.
 
-Would you like to explore any specific component of this FullStack Generator, or is there another CreoLang feature you're interested in? ![file-gp2qQCFNXCiakcc8mbgIRhpm](https://github.com/CreoDAMO/creolang/assets/151800081/2e6eb99d-cafb-4f6d-979a-340cbde64624)
-![file-8WLeIRFM6zNioqQ0zWOKzZB9](https://github.com/CreoDAMO/creolang/assets/151800081/8b06f935-504b-4a19-9d59-3861998f6833)
-![file-zyreg2kaVakk8uKB4TGteWsJ](https://github.com/CreoDAMO/creolang/assets/151800081/587e2d3c-84b9-402b-82db-8020deb1a03c)
-![file-ih9nT9pRsBRXCuLU0etpxU8u](https://github.com/CreoDAMO/creolang/assets/151800081/632ca8f6-1bb9-4367-a391-3d89bd466d43)
-![file-azWMD1sZN9HocSyXbWQujJRG](https://github.com/CreoDAMO/creolang/assets/151800081/63d05d44-a63f-48c7-8c78-433bb9a0585d)
+Would you like to explore any specific component of this FullStack Generator, or is there another CreoLang feature you're interested in?
