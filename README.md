@@ -3463,16 +3463,6 @@ The initial project structure for CreoLang will be:
 4. **Documentation**: Comprehensive guides and API documentation.
 
 ### Step 1: Defining the Basic Syntax
-![CreoDAMO_Global](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/20f12db5-686e-4a6c-8533-e58992fbc85c)
-![CreoCoin_CreDamoToken](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/c4358f4e-2caa-4fb4-abe4-3fcfd2d1a25d)
-![file-gzC5ftwqymL2G3GisGx2Ccfj](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/9664a114-bc17-4370-9a1f-dc1f073f8935)
-![file-N8KoJYDy0Aoa0AE9NuQYbzMC](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/d1ec0e39-cf91-453f-adb8-97c48ce1d695)
-![file-3MZF4Vj3auOp0bOH626q7Jfi](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/eaada23d-c6bf-445e-9826-e48b5d4fd9e5)
-![file-t8sZpK1ifTpCn70pFX7XxxEm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/3cf7e367-7568-4af5-a078-2193df8fec09)
-![file-Bnj8hD0y3NqgBJAPTXVANWUU](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/101f3483-8539-42a6-b6ab-1317a9e239e8)
-![file-BkU9mkzL1OAp6WmW0wNnPBVN](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7f629c0e-37fa-4be8-aed6-089bbbdd52d9)
-![file-CS5oJgSu4HtPbkOyGhJeJOs5](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/4da9bfcc-45e8-43e2-a061-ca13331627f2)
-![file-gp2qQCFNXCiakcc8mbgIRhpm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7e316d52-bce2-4e44-b7e2-91250e0bbf89)
 
 Let's define the basic syntax rules for CreoLang. We'll start with variable declarations, control structures, and function definitions.
 
