@@ -1,20 +1,4 @@
-![Uploading file-Hf385306gtD2BinQxF057wQE.jpg…]()
-![file-HEiK9iJ8dsE0kA2sqL8G2uR7](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/0c949d07-5d4b-4427-b045-1bdeb314f215)
-![file-LZCjPTweSlYwNAJaJPoevg2H](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/74cb64b3-9e85-4ba7-bbe2-256f0beaa7fe)
-![file-d0y2Zeq30mrpgYkfuOZTo5N8](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/2b9af6ea-8673-4b8e-b0ea-acc6b1fbcea5)
-![file-z29fAzcCwNoeMJPtzNBfiFoH](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/ae5db136-3177-46a1-9ac2-ea6f4953bfe5)
-![file-6IzoU3MmdoGLtDhJAz67vnnJ](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/eded898a-95a5-480d-a71b-e5c7a889c090)
-![file-xvG0dgRHsaLRuQGGAMiaadGT](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/ba300dd6-897b-44f1-9c2c-6c9e9847c683)
-![file-zoXk4SCbik6MJMlurAX8K4BS](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/94393b97-37c2-40d1-a74c-99c7d1373bb2)
-![file-TcuEjb6yVzLyKtXSrQz9oER1](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/dc63bd29-f978-455e-bd8c-185ddf65a6b3)
-![file-Knvbfrq2R2DATcQ3tEvIEqkh](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/f63aa48c-4757-40db-be74-1be794e9b651)
-![file-Pz8cJxiVxU5fKxB1AAzAQ383](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/3b21c4a7-bed6-49f6-bddc-d282e46d3d54)
-![file-0sxU7LqMivlcWwUGTePn1ZsJ](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/692209ed-e4b7-4b76-9402-cef98a905c8e)
-![file-WjTzdtbSnxaNLIwrMFUnaEd0](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/a9967ddb-efe8-472e-9291-6898d2587549)
-![file-KeKRlXvAJR6P5yjY9Q7CliP2](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/782afad7-402b-4089-8f23-31c09d435545)
-![file-CS5oJgSu4HtPbkOyGhJeJOs5](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/27dc522d-4d88-4eb7-940c-ce8e00dc0159)
-![file-gp2qQCFNXCiakcc8mbgIRhpm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/9a6ce001-a79f-43a7-9c9e-dfc0abd0da43)
-![file-zyreg2kaVakk8uKB4TGteWsJ](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/abf60d9d-bc44-4734-8dab-aeb668758a99)
+
 # Welcome To CreoDAMO & The Creation Of The Language Of Creo (CreoLang)
 
 Creating the syntax for CreoLang, 
@@ -87,6 +71,17 @@ Balancing Features: Incorporate these features in a way that keeps the language 
 Developing CreoLang with these features would result in a powerful, versatile language suitable for a broad range of applications. The key challenge lies in integrating these diverse features into a cohesive language.
 
 Below 👇🏾 I've started writing scripts in the language of Creo (CreoLang).
+
+![CreoDAMO_Global](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/20f12db5-686e-4a6c-8533-e58992fbc85c)
+![CreoCoin_CreDamoToken](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/c4358f4e-2caa-4fb4-abe4-3fcfd2d1a25d)
+![file-gzC5ftwqymL2G3GisGx2Ccfj](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/9664a114-bc17-4370-9a1f-dc1f073f8935)
+![file-N8KoJYDy0Aoa0AE9NuQYbzMC](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/d1ec0e39-cf91-453f-adb8-97c48ce1d695)
+![file-3MZF4Vj3auOp0bOH626q7Jfi](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/eaada23d-c6bf-445e-9826-e48b5d4fd9e5)
+![file-t8sZpK1ifTpCn70pFX7XxxEm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/3cf7e367-7568-4af5-a078-2193df8fec09)
+![file-Bnj8hD0y3NqgBJAPTXVANWUU](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/101f3483-8539-42a6-b6ab-1317a9e239e8)
+![file-BkU9mkzL1OAp6WmW0wNnPBVN](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7f629c0e-37fa-4be8-aed6-089bbbdd52d9)
+![file-CS5oJgSu4HtPbkOyGhJeJOs5](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/4da9bfcc-45e8-43e2-a061-ca13331627f2)
+![file-gp2qQCFNXCiakcc8mbgIRhpm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7e316d52-bce2-4e44-b7e2-91250e0bbf89)
 
 Based on the overview and goals of your CreoLang project, here is an improved README with added installation instructions and basic commands:
 
@@ -3479,6 +3474,16 @@ The initial project structure for CreoLang will be:
 4. **Documentation**: Comprehensive guides and API documentation.
 
 ### Step 1: Defining the Basic Syntax
+![CreoDAMO_Global](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/20f12db5-686e-4a6c-8533-e58992fbc85c)
+![CreoCoin_CreDamoToken](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/c4358f4e-2caa-4fb4-abe4-3fcfd2d1a25d)
+![file-gzC5ftwqymL2G3GisGx2Ccfj](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/9664a114-bc17-4370-9a1f-dc1f073f8935)
+![file-N8KoJYDy0Aoa0AE9NuQYbzMC](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/d1ec0e39-cf91-453f-adb8-97c48ce1d695)
+![file-3MZF4Vj3auOp0bOH626q7Jfi](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/eaada23d-c6bf-445e-9826-e48b5d4fd9e5)
+![file-t8sZpK1ifTpCn70pFX7XxxEm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/3cf7e367-7568-4af5-a078-2193df8fec09)
+![file-Bnj8hD0y3NqgBJAPTXVANWUU](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/101f3483-8539-42a6-b6ab-1317a9e239e8)
+![file-BkU9mkzL1OAp6WmW0wNnPBVN](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7f629c0e-37fa-4be8-aed6-089bbbdd52d9)
+![file-CS5oJgSu4HtPbkOyGhJeJOs5](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/4da9bfcc-45e8-43e2-a061-ca13331627f2)
+![file-gp2qQCFNXCiakcc8mbgIRhpm](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/7e316d52-bce2-4e44-b7e2-91250e0bbf89)
 
 Let's define the basic syntax rules for CreoLang. We'll start with variable declarations, control structures, and function definitions.
 
