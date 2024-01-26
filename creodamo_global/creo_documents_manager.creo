@@ -1,0 +1,46 @@
+// CreoLang Script for Creo Document Management
+// Author: Jacque Antoine DeGraff
+// Contact: jacquedegraff@creodamo.com
+
+class CreoDocumentManager {
+    trustDeed: Document
+    trustCharter: Document
+
+    constructor() {
+        this.trustDeed = new Document("Creo Creator Trust Deed", "Path/To/TrustDeed.txt")
+        this.trustCharter = new Document("Creo Community Trust Charter", "Path/To/TrustCharter.txt")
+    }
+
+    func displayDocument(documentName: String) {
+        let document = (documentName == "Trust Deed") ? this.trustDeed : this.trustCharter
+        print("Displaying \(document.name):")
+        print(document.getContent())
+    }
+}
+
+class Document {
+    name: String
+    filePath: String
+
+    constructor(name: String, filePath: String) {
+        this.name = name
+        this.filePath = filePath
+    }
+
+    func getContent() -> String {
+        // Logic to read and return the content of the document
+        // Placeholder for actual document content
+        return "Document Content for \(this.name)\n\n- Authored by Jacque Antoine DeGraff\n- Contact: jacquedegraff@creodamo.com"
+    }
+}
+
+// Main function to demonstrate document management
+func main() {
+    let documentManager = CreoDocumentManager()
+
+    // Display the Trust Deed and Trust Charter
+    documentManager.displayDocument("Trust Deed")
+    documentManager.displayDocument("Trust Charter")
+}
+
+main()
