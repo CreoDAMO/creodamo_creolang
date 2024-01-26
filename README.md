@@ -3720,7 +3720,7 @@ Here's the proposed directory structure for the standard library:
 Let's start with a simple module, like the math module. Here's an example of what it might look like in CreoLang:
 
 ```creo
-// File: src/math/mod.cl
+// File: src/math/mod.creo
 
 // Basic mathematical functions
 
@@ -3750,7 +3750,7 @@ func divide(a: Int, b: Int) -> Float {
 This module could include functionalities for smart contract deployment, interaction with blockchain networks, and wallet management.
 
 ```creo
-// File: src/blockchain/mod.cl
+// File: src/blockchain/mod.creo
 
 // Blockchain interaction functionalities
 
@@ -3770,7 +3770,7 @@ func sendTransaction(from: String, to: String, amount: Int, network: String) {
 For machine learning, the library could provide data processing tools, basic algorithms, and integration with popular ML frameworks.
 
 ```creo
-// File: src/ml/mod.cl
+// File: src/ml/mod.creo
 
 // Machine learning utilities and algorithms
 
@@ -3977,7 +3977,7 @@ Here's a basic structure for the `CreoPkg` project:
 We'll start with the CLI, which will be the primary way users interact with `CreoPkg`. Here's a pseudo-code snippet:
 
 ```creo
-// File: src/cli/main.cl
+// File: src/cli/main.creo
 
 func main(args: Array<String>) {
     match args[0] {
@@ -4180,7 +4180,7 @@ The framework will be designed to support unit tests, integration tests, and end
 Let's start by setting up the unit testing framework.
 
 ```creo
-// File: tests/unit/compilerTests.cl
+// File: tests/unit/compilerTests.creo
 
 func testCompilerOutput() {
     var sourceCode = "var x = 5"
@@ -4196,7 +4196,7 @@ func testCompilerOutput() {
 Integration tests will ensure different modules of CreoLang work together seamlessly.
 
 ```creo
-// File: tests/integration/packageManagerTests.cl
+// File: tests/integration/packageManagerTests.creo
 
 func testPackageInstallation() {
     var packageName = "creo_math"
@@ -4211,7 +4211,7 @@ func testPackageInstallation() {
 End-to-end tests will simulate real-world scenarios to test the entire CreoLang ecosystem.
 
 ```creo
-// File: tests/e2e/idePluginTests.cl
+// File: tests/e2e/idePluginTests.creo
 
 func testIdePluginFunctionality() {
     var testCode = "var result = add(2, 3)"
@@ -4447,7 +4447,7 @@ Creating a Creo MVP (Minimum Viable Product) Generator for CreoLang sounds like 
 Here's a basic structure for the generator logic in CreoLang:
 
 ```creo
-// File: src/generator/mod.cl
+// File: src/generator/mod.creo
 
 func generateProject(templateName: String, projectName: String, config: Config) {
     var template = loadTemplate(templateName)
@@ -4473,7 +4473,7 @@ func saveProject(project: Project, projectName: String) {
 A simple CLI to interact with the generator:
 
 ```creo
-// File: src/cli/main.cl
+// File: src/cli/main.creo
 
 func main(args: Array<String>) {
     if args.length < 3 {
@@ -4538,7 +4538,7 @@ Creating a 3D Avatar Generator for CreoLang is a fascinating idea! This tool wou
 Implementing the main logic for generating and customizing avatars:
 
 ```creo
-// File: src/generator/mod.cl
+// File: src/generator/mod.creo
 
 func createAvatar(config: AvatarConfig) -> Avatar {
     var avatar = new Avatar()
@@ -4560,7 +4560,7 @@ func applyAnimations(avatar: Avatar, animationConfig: AnimationConfig) {
 Developing a user-friendly interface for customizing avatars:
 
 ```creo
-// File: src/ui/customization.cl
+// File: src/ui/customization.creo
 
 func showCustomizationOptions() {
     // Display UI components for customizing avatars
@@ -4610,7 +4610,7 @@ Creating an OpenAPI Generator for CreoLang is an excellent idea! This tool will 
 Develop logic to parse CreoLang files and identify API endpoints and their parameters.
 
 ```creo
-// File: src/parser/mod.cl
+// File: src/parser/mod.creo
 
 func parseApiEndpoints(fileContent: String) -> Array<ApiEndpoint> {
     // Logic to parse CreoLang file and extract API endpoints
@@ -4629,7 +4629,7 @@ struct ApiEndpoint {
 Translate the parsed API data into OpenAPI specification format.
 
 ```creo
-// File: src/generator/mod.cl
+// File: src/generator/mod.creo
 
 func generateOpenApiSpec(apiEndpoints: Array<ApiEndpoint>) -> String {
     var openApiSpec = new OpenApiSpec()
@@ -4647,7 +4647,7 @@ func generateOpenApiSpec(apiEndpoints: Array<ApiEndpoint>) -> String {
 Create a command-line interface to easily generate OpenAPI specs from CreoLang files.
 
 ```creo
-// File: src/cli/main.cl
+// File: src/cli/main.creo
 
 func main(args: Array<String>) {
     if args.length < 2 {
@@ -4698,7 +4698,7 @@ Creating a Creo Super Advanced Audit Generator sounds like an ambitious and impa
 Develop a module to gather and analyze application data.
 
 ```creo
-// File: src/analytics/mod.cl
+// File: src/analytics/mod.creo
 
 func analyzeApplicationData(application) -> AnalyticsReport {
     // Gather application data and perform analytics
@@ -4711,7 +4711,7 @@ func analyzeApplicationData(application) -> AnalyticsReport {
 Implement security checks to identify potential vulnerabilities.
 
 ```creolang
-// File: src/security/mod.cl
+// File: src/security/mod.creo
 
 func performSecurityAudit(application) -> SecurityReport {
     // Scan the application for security vulnerabilities
@@ -4724,7 +4724,7 @@ func performSecurityAudit(application) -> SecurityReport {
 Develop performance analysis tools to identify bottlenecks.
 
 ```creo
-// File: src/performance/mod.cl
+// File: src/performance/mod.creo
 
 func analyzePerformance(application) -> PerformanceReport {
     // Analyze application performance and identify bottlenecks
@@ -4737,7 +4737,7 @@ func analyzePerformance(application) -> PerformanceReport {
 Implement a system to assess the quality of the code.
 
 ```creo
-// File: src/quality/mod.cl
+// File: src/quality/mod.cre
 
 func assessCodeQuality(application) -> QualityReport {
     // Assess the quality of the application's code
@@ -4750,7 +4750,7 @@ func assessCodeQuality(application) -> QualityReport {
 Aggregate the results from all modules into a comprehensive audit report.
 
 ```creolang
-// File: src/reportGenerator.cl
+// File: src/reportGenerator.creo
 
 func generateAuditReport(application) -> AuditReport {
     var analyticsReport = analyzeApplicationData(application)
@@ -4796,7 +4796,7 @@ Creating a Creo Living Metadata NFT Generator is a cutting-edge project! This to
 Developing the core logic for NFT creation and management.
 
 ```creo
-// File: src/nft/mod.cl
+// File: src/nft/mod.creo
 
 func createNFT(owner: String, initialMetadata: Metadata) -> NFT {
     // Logic to create a new NFT with initial metadata
@@ -4809,7 +4809,7 @@ func createNFT(owner: String, initialMetadata: Metadata) -> NFT {
 Implementing the functionality to update NFT metadata dynamically.
 
 ```creolang
-// File: src/metadata/mod.cl
+// File: src/metadata/mod.creo
 
 func updateMetadata(nft: NFT, newMetadata: Metadata) {
     // Update the NFT's metadata
@@ -4822,7 +4822,7 @@ func updateMetadata(nft: NFT, newMetadata: Metadata) {
 Integrating with a blockchain to mint and manage the NFTs.
 
 ```creo
-// File: src/blockchain/mod.cl
+// File: src/blockchain/mod.creo
 
 func mintNFT(nft: NFT) -> BlockchainResponse {
     // Mint the NFT on the blockchain
@@ -4880,7 +4880,7 @@ A Creo Carbon Footprint & Offset NFT Generator project is a fantastic concept! T
 Developing the logic to calculate carbon footprints based on user input.
 
 ```creo
-// File: src/carbonCalculator/mod.cl
+// File: src/carbonCalculator/mod.creo
 
 func calculateCarbonFootprint(userData: UserData) -> CarbonFootprint {
     // Logic to calculate carbon footprint based on provided data
@@ -4893,7 +4893,7 @@ func calculateCarbonFootprint(userData: UserData) -> CarbonFootprint {
 Implementing the functionality to create NFTs representing carbon offsets.
 
 ```creo
-// File: src/nftGenerator/mod.cl
+// File: src/nftGenerator/mod.creo
 
 func generateCarbonOffsetNFT(footprint: CarbonFootprint) -> NFT {
     // Create an NFT representing the carbon offset
@@ -4907,7 +4907,7 @@ func generateCarbonOffsetNFT(footprint: CarbonFootprint) -> NFT {
 Integrating with a blockchain to mint the carbon offset NFTs.
 
 ```creo
-// File: src/blockchain/mod.cl
+// File: src/blockchain/mod.creo
 
 func mintOffsetNFT(nft: NFT) -> BlockchainResponse {
     // Mint the carbon offset NFT on the blockchain
@@ -4967,7 +4967,7 @@ Embarking on a Creo Web5.0 project is a forward-thinking initiative! This endeav
 Building a robust decentralized network framework.
 
 ```creo
-// File: src/decentralization/mod.cl
+// File: src/decentralization/mod.creo
 
 func establishDecentralizedNetwork() -> Network {
     // Logic to create and manage a decentralized network
@@ -4980,7 +4980,7 @@ func establishDecentralizedNetwork() -> Network {
 Developing AI-driven user interfaces and backend processes.
 
 ```creo
-// File: src/ai/mod.cl
+// File: src/ai/mod.creo
 
 func createAiDrivenInterface() -> AIInterface {
     // Implement AI algorithms for user interaction and data processing
@@ -4993,7 +4993,7 @@ func createAiDrivenInterface() -> AIInterface {
 Incorporating Virtual and Augmented Reality elements for an immersive web experience.
 
 ```creo
-// File: src/vr_ar/mod.cl
+// File: src/vr_ar/mod.creo
 
 func integrateVrArComponents() {
     // Logic to integrate VR/AR components into the web platform
@@ -5005,7 +5005,7 @@ func integrateVrArComponents() {
 Creating interfaces and modules to leverage quantum computing advancements.
 
 ```creo
-// File: src/quantum/mod.cl
+// File: src/quantum/mod.creo
 
 func quantumComputingIntegration() {
     // Develop quantum computing interfaces and functionalities
@@ -5017,7 +5017,7 @@ func quantumComputingIntegration() {
 Implementing cutting-edge security measures to protect the platform and its users.
 
 ```creo
-// File: src/security/mod.cl
+// File: src/security/mod.creo
 
 func deploySecurityProtocols() {
     // Advanced security implementations for data protection and privacy
@@ -5029,7 +5029,7 @@ func deploySecurityProtocols() {
 Crafting a user-friendly and aesthetically pleasing interface.
 
 ```creo
-// File: src/ui/mod.cl
+// File: src/ui/mod.creo
 
 func designUserInterface() -> UI {
     // Develop an intuitive and engaging user interface
@@ -5072,7 +5072,7 @@ Creating a Creo Web5.0 Wallet Generator is a forward-thinking project that align
 Developing the core logic for creating and managing digital wallets.
 
 ```creo
-// File: src/walletCore/mod.cl
+// File: src/walletCore/mod.creo
 
 func createWallet(userId: String, options: WalletOptions) -> Wallet {
     // Logic to create a new digital wallet
@@ -5085,7 +5085,7 @@ func createWallet(userId: String, options: WalletOptions) -> Wallet {
 Implementing robust security measures for wallet protection.
 
 ```creo
-// File: src/security/mod.cl
+// File: src/security/mod.creo
 
 func encryptCredentials(credentials: Credentials) -> EncryptedCredentials {
     // Encrypt user credentials for wallet security
@@ -5098,7 +5098,7 @@ func encryptCredentials(credentials: Credentials) -> EncryptedCredentials {
 Providing functionality to interact with various blockchain networks.
 
 ```creo
-// File: src/blockchain/mod.cl
+// File: src/blockchain/mod.creo
 
 func connectToBlockchain(network: String) -> BlockchainConnection {
     // Establish a connection to the specified blockchain network
@@ -5158,7 +5158,7 @@ Creating a Creo FullStack Generator is an excellent idea! This tool will streaml
 Developing logic to generate front-end components based on user preferences.
 
 ```creo
-// File: src/frontend/mod.cl
+// File: src/frontend/mod.creo
 
 func generateFrontend(templateName: String, config: Config) -> FrontendCode {
     // Logic to generate front-end code based on the selected template and config
@@ -5171,7 +5171,7 @@ func generateFrontend(templateName: String, config: Config) -> FrontendCode {
 Implementing the functionality to create back-end structures and functionalities.
 
 ```creo
-// File: src/backend/mod.cl
+// File: src/backend/mod.creo
 
 func generateBackend(templateName: String, config: Config) -> BackendCode {
     // Logic to generate back-end code including server setup and routing
@@ -5184,7 +5184,7 @@ func generateBackend(templateName: String, config: Config) -> BackendCode {
 Creating templates for integrating various databases.
 
 ```creo
-// File: src/database/mod.cl
+// File: src/database/mod.creo
 
 func setupDatabase(databaseType: String, config: Config) {
     // Configure and integrate the specified database
@@ -5209,7 +5209,7 @@ func generateApi(config: Config) -> ApiCode {
 Creating a user-friendly command-line interface for the FullStack Generator.
 
 ```creo
-// File: src/cli/main.cl
+// File: src/cli/main.creo
 
 func main(args: Array<String>) {
     // Parse arguments and invoke the appropriate generation logic
@@ -5257,7 +5257,7 @@ Embarking on the creation of a Creo Dapp (Decentralized Application) Generator i
 Developing the core logic for creating the foundational structure of a Dapp.
 
 ```creo
-// File: src/scaffolding/mod.cl
+// File: src/scaffolding/mod.creo
 
 func scaffoldDapp(templateName: String, options: DappOptions) -> DappStructure {
     // Logic to create the basic structure of a Dapp based on selected options
@@ -5270,7 +5270,7 @@ func scaffoldDapp(templateName: String, options: DappOptions) -> DappStructure {
 Providing tools and templates for integrating smart contracts into Dapps.
 
 ```creo
-// File: src/smartContracts/mod.cl
+// File: src/smartContracts/mod.creo
 
 func createSmartContract(contractType: String, parameters: Dict) -> SmartContract {
     // Generate a smart contract based on the type and parameters
@@ -5283,7 +5283,7 @@ func createSmartContract(contractType: String, parameters: Dict) -> SmartContrac
 Creating a library of reusable UI components for Dapps.
 
 ```creo
-// File: src/ui/mod.cl
+// File: src/ui/mod.creo
 
 func generateUIComponent(componentType: String, options: UIOptions) -> UIComponent {
     // Logic to generate UI components for Dapps
@@ -5296,7 +5296,7 @@ func generateUIComponent(componentType: String, options: UIOptions) -> UICompone
 Facilitating the connection of Dapps to various blockchain networks.
 
 ```creo
-// File: src/blockchain/mod.cl
+// File: src/blockchain/mod.creo
 
 func connectToBlockchain(network: String, dapp: DappStructure) {
     // Establish a connection between the Dapp and the specified blockchain
@@ -5308,7 +5308,7 @@ func connectToBlockchain(network: String, dapp: DappStructure) {
 Creating a CLI for developers to easily generate and manage Dapps.
 
 ```creolang
-// File: src/cli/main.cl
+// File: src/cli/main.creo
 
 func main(args: Array<String>) {
     // CLI logic to handle user inputs and invoke Dapp generation processes
