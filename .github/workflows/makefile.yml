@@ -1,0 +1,33 @@
+name: CreoDAMO CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Read from README
+      run: make read_from_readme
+
+    - name: Compile CreoLang Source
+      run: make compile
+
+    - name: Set Up Services
+      run: make setup_services
+
+    - name: Run Tests (if applicable)
+      run: make test
+
+    - name: Clean Build
+      run: make clean
+
+    - name: Run CreoDAMO
+      run: make run
