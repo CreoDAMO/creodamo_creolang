@@ -169,6 +169,7 @@ Apache 2.0 License. See the [LICENSE file](#) for details.
 - **Community Feedback:** Regularly collect user feedback during the transition phase to address any issues and improve the migration process.
 - **Plugin/Extension Development:** Encourage the development of plugins or extensions for various IDEs to support `.creo` files effectively.
 - **Marketing and Promotion:** Utilize the new file extension as a marketing tool to promote CreoLang and differentiate it from other languages.
+```
 
 # Creo Libraries
 
