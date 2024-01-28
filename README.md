@@ -1,3 +1,4 @@
+![CreoDAMO_Global](https://github.com/CreoDAMO/creodamo_global/assets/151800081/b4018ba3-0d46-4220-9096-a58203772c7c)
 ### Welcome To CreoDAMO & The Creation Of The Language Of Creo (CreoLang)
 Creating the syntax for CreoLang, I want to use the best functionalities from Python Rust Solidity Go ML Quantum Computation C# C++ Swift React Nodejs UXUI AV/VR/XR/MR Navida
 Without using the actual languages we need to focus only on the best functionalities from each of these languages and any other functionalities and features you can add to enhance The Language of Creo
@@ -4234,7 +4235,7 @@ func analyzeApiSecurityAndPerformance(apiEndpoints: Array<ApiEndpoint>) {
 }
 ```
 
-#Creo Super Advanced Audit Generator
+# Creo Super Advanced Audit Generator
 
 ## 1. AI-Powered Analysis
 Incorporate machine learning algorithms to intelligently analyze and predict potential issues in the application.
@@ -5251,7 +5252,7 @@ func cloudDeploymentWizard(config: CloudConfig) -> DeploymentCode {
 }
 ```
 
-Creo Dapp Generator 
+# Creo Dapp Generator 
 
 Dapp Scaffolding Logic
 Developing the core logic for creating the foundational structure of a Dapp.
@@ -5448,8 +5449,7 @@ func testAndDocumentDapp(dapp: DappStructure) {
 }
 ```
 
-# ![2dpidx](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/22311ee7-fe30-43de-9565-ab0d3efe106f)
-Creo Termux Connector
+# Creo Termux Connector
 
 ```creo
 // Enhanced Creo Termux Connector
