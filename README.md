@@ -5448,6 +5448,7 @@ func testAndDocumentDapp(dapp: DappStructure) {
 }
 ```
 
+# ![2dpidx](https://github.com/CreoDAMO/creodamo_creolang/assets/151800081/22311ee7-fe30-43de-9565-ab0d3efe106f)
 Creo Termux Connector
 
 ```creo
