@@ -1,33 +1,34 @@
-name: CreoDAMO CI
+# Makefile for CreoDAMO project
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+# Variables
+CREOLANG_COMPILER = creoc
+SOURCE_DIR = src
+BUILD_DIR = build
 
-jobs:
-  build:
+# Default target
+all: read_from_readme compile setup_services test clean run
 
-    runs-on: ubuntu-latest
+# Extract information from README.md
+read_from_readme:
+    @echo "Reading from README.md"
+    # Add command to read and process information from README.md here
 
-    steps:
-    - uses: actions/checkout@v3
+# Compile CreoLang source files
+compile:
+    $(CREOLANG_COMPILER) $(SOURCE_DIR)/*.creo -o $(BUILD_DIR)/
 
-    - name: Read from README
-      run: make read_from_readme
+# Set up required services
+setup_services:
+    # Commands to set up services go here
 
-    - name: Compile CreoLang Source
-      run: make compile
+# Run tests for the application
+test:
+    # Commands to run tests go here
 
-    - name: Set Up Services
-      run: make setup_services
+# Clean the build directory
+clean:
+    rm -rf $(BUILD_DIR)/*
 
-    - name: Run Tests (if applicable)
-      run: make test
-
-    - name: Clean Build
-      run: make clean
-
-    - name: Run CreoDAMO
-      run: make run
+# Run the CreoDAMO application
+run:
+    # Command to run the CreoDAMO application goes here
