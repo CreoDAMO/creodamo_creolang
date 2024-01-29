@@ -1,0 +1,13 @@
+// CommunicationChannel
+
+class CommunicationChannel {
+    var messages: [Message]
+
+    func sendMessage(message: Message) {
+        // Logic to send messages to the team or AI
+    }
+
+    func receiveMessage() -> Message {
+        // Logic to receive messages
+    }
+}
