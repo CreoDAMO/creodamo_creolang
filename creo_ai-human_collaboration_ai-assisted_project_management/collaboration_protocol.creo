@@ -1,0 +1,15 @@
+// CollaborationProtocol
+
+class CollaborationProtocol {
+    var humanRoles: [String]
+    var aiRoles: [String]
+    var taskAssignments: Dict<String, String>
+
+    init() {
+        // Initialize roles and task assignments
+    }
+
+    func assignTask(task: String, role: String) {
+        // Logic for assigning tasks
+    }
+}
