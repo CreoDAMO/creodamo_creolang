@@ -1,67 +1,69 @@
-// Importing essential CreoLang modules for service management
-import ServiceManager from CreoLang.Services;
-import BlockchainService from CreoLang.Blockchain;
-import DecentralizedCloud from CreoLang.DecentralizedCloud;
-import CommunityEngagement from CreoLang.Community;
-import CreoLangService from CreoLang.CreoLangCore;
-import DocumentationService from CreoLang.Documentation;
-import FeatureFlagService from CreoLang.FeatureFlags;
-import GardenWateringService from CreoLang.Garden;
-import GovernanceService from CreoLang.Governance;
-import IncidentResponseService from CreoLang.IncidentResponse;
-import InternationalizationService from CreoLang.Internationalization;
-import KubernetesDeploymentService from CreoLang.Kubernetes;
-import MonitoringService from CreoLang.Monitoring;
-import MonetizationService from CreoLang.Monetization;
-import ProofOfCreoService from CreoLang.ProofOfCreo;
-import RegulatoryComplianceService from CreoLang.RegulatoryCompliance;
-import SecurityFrameworkService from CreoLang.SecurityFramework;
-import SecurityPipelineService from CreoLang.SecurityPipeline;
-import ServiceMeshService from CreoLang.ServiceMesh;
-import StrategyService from CreoLang.Strategies;
-import TradingService from CreoLang.Trading;
-import UserManagementService from CreoLang.UserManagement;
-import UtilsService from CreoLang.Utils;
-import VenturesFundService from CreoLang.VenturesFund;
-import WebSocketService from CreoLang.WebSocket;
+// Using CreoLang's comprehensive service management modules
+Use CreoLang.Services.ServiceManager;
+Use CreoLang.Blockchain.BlockchainService;
+Use CreoLang.Cloud.DecentralizedCloudService;
+Use CreoLang.Community.CommunityEngagementService;
+Use CreoLang.Core.CreoLangService;
+Use CreoLang.Documentation.DocumentationService;
+Use CreoLang.Features.FeatureFlagService;
+Use CreoLang.Garden.GardenWateringService;
+Use CreoLang.Governance.GovernanceService;
+Use CreoLang.IncidentResponse.IncidentResponseService;
+Use CreoLang.Internationalization.InternationalizationService;
+Use CreoLang.Kubernetes.KubernetesDeploymentService;
+Use CreoLang.Monitoring.MonitoringService;
+Use CreoLang.Monetization.MonetizationService;
+Use CreoLang.ProofOfCreo.ProofOfCreoService;
+Use CreoLang.RegulatoryCompliance.RegulatoryComplianceService;
+Use CreoLang.Security.FrameworkService;
+Use CreoLang.Security.PipelineService;
+Use CreoLang.ServiceMesh.ServiceMeshService;
+Use CreoLang.Strategies.StrategyService;
+Use CreoLang.Trading.TradingService;
+Use CreoLang.UserManagement.UserManagementService;
+Use CreoLang.Utils.UtilsService;
+Use CreoLang.VenturesFund.VenturesFundService;
+Use CreoLang.WebSocket.WebSocketService;
 
+// CreoServicesController for centralized service management
 class CreoServicesController {
-    // Controller to manage all services
+    // Controller to manage and coordinate services
     constructor() {
         this.serviceManager = new ServiceManager();
-        // Initialize all services
+        // Initialization of all services
         this.initializeServices();
     }
 
     initializeServices() {
-        // Registering all services
-        this.serviceManager.registerService(new BlockchainService());
-        this.serviceManager.registerService(new DecentralizedCloudService());
-        this.serviceManager.registerService(new CommunityEngagementService());
-        this.serviceManager.registerService(new CreoLangService());
-        // ... register other services in a similar fashion ...
+        // Registering and initializing various services
+        this.serviceManager.register(new BlockchainService());
+        this.serviceManager.register(new DecentralizedCloudService());
+        this.serviceManager.register(new CommunityEngagementService());
+        this.serviceManager.register(new CreoLangService());
+        // ... Continue registering other services ...
 
-        // Starting all services
-        this.serviceManager.startAllServices();
+        // Starting and orchestrating all services
+        this.serviceManager.startAll();
     }
 
     stopServices() {
-        // Stopping all services
-        this.serviceManager.stopAllServices();
+        // Gracefully stopping and deactivating all services
+        this.serviceManager.stopAll();
     }
 
-    // Additional methods to monitor and manage services
+    // Methods for monitoring, managing, and fine-tuning services
+    // ...
 }
 
-// Main execution
-async function main() {
-    let creoServices = new CreoServicesController();
-    // Perform any additional tasks or service monitoring
+// Main execution function for managing services
+async func main() {
+    let creoServicesController = new CreoServicesController();
+    // Perform service-related tasks, monitoring, and management
     // ...
 
-    // Clean up and stop services before exit
-    creoServices.stopServices();
+    // Stopping and cleaning up services before exit
+    creoServicesController.stopServices();
 }
 
-// Execute main
+// Initiating the main function
 main().executeAsync();
