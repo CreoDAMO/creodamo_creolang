@@ -1,51 +1,51 @@
-// Importing CreoLang modules for data processing and analysis
-import CreoDataProcessing from data
-import CreoParallelExecution from parallel
-import CreoProfiler from profiling
-import CreoFileHandler from file
+// Using CreoLang's advanced modules for numerical analysis and optimization
+Use CreoNumericalModule
+Use CreoParallelExecutionModule
+Use CreoProfilingModule
+Use CreoFileHandlingModule
 
-// Defining the CreoNumericalAnalysis class
+// Defining the CreoNumericalAnalysis class in CreoLang
 class CreoNumericalAnalysis {
-    CreoData dataHandler;
-    CreoParallel parallelExecutor;
-    CreoProfiler profiler;
-    CreoFileHandler fileHandler;
+    CreoNumerical numericalProcessor
+    CreoParallel parallelProcessor
+    CreoProfiler performanceProfiler
+    CreoFileHandler dataFileHandler
 
-    construct() {
-        dataHandler = new CreoDataProcessing();
-        parallelExecutor = new CreoParallelExecution();
-        profiler = new CreoProfiler();
-        fileHandler = new CreoFileHandler();
+    constructor() {
+        this.numericalProcessor = new CreoNumericalModule()
+        this.parallelProcessor = new CreoParallelExecutionModule()
+        this.performanceProfiler = new CreoProfilingModule()
+        this.dataFileHandler = new CreoFileHandlingModule()
     }
 
     async func calculateSum(dataArray) {
-        // Implementing parallel execution for sum calculation
-        return parallelExecutor.executeSum(dataArray);
+        // Parallel execution for efficient sum calculation
+        return this.parallelProcessor.executeSum(dataArray)
     }
 
     async func optimizeAndProfile(dataArray) {
         // Profiling the execution of optimized code
-        profiler.start();
-        let sumResult = await this.calculateSum(dataArray);
-        profiler.stop();
-        profiler.displayResults();
-        return sumResult;
+        this.performanceProfiler.start()
+        let sumResult = await this.calculateSum(dataArray)
+        this.performanceProfiler.stop()
+        this.performanceProfiler.displayResults()
+        return sumResult
     }
 
     async func processData() {
-        // Reading and processing data from a CSV file
-        let dataFrame = await fileHandler.readCSV("data.csv");
-        let dataArray = dataFrame.toNumericalArray();
-        return await this.optimizeAndProfile(dataArray);
+        // Processing data from a file using CreoLang's file handling module
+        let dataFrame = await this.dataFileHandler.readCSV("data.csv")
+        let dataArray = this.numericalProcessor.convertToNumericalArray(dataFrame)
+        return await this.optimizeAndProfile(dataArray)
     }
 }
 
-// Main execution flow
+// Main function in CreoLang to demonstrate numerical analysis
 async func main() {
-    let numericalAnalysis = new CreoNumericalAnalysis();
-    let optimizedResult = await numericalAnalysis.processData();
-    Console.log("Optimized Result:", optimizedResult);
+    let numericalAnalysis = new CreoNumericalAnalysis()
+    let optimizedResult = await numericalAnalysis.processData()
+    Console.print("Optimized Result: \(optimizedResult)")
 }
 
-// Execute the main function asynchronously
-main().executeAsync();
+// Initiate the execution of the main function
+main().executeAsync()
