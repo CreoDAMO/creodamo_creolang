@@ -1,0 +1,97 @@
+// CreoLang Script for Advanced IoT Device Management System
+
+// Using CreoLang Modules for IoT Operations
+Use IoTController from CreoLang.IoT;
+Use DataCollector from CreoLang.DataCollection;
+Use FirmwareUpdater from CreoLang.FirmwareManagement;
+Use SecurityModule from CreoLang.Security;
+Use DeviceHealthMonitor from CreoLang.HealthMonitoring;
+Use NetworkOptimizer from CreoLang.NetworkOptimization;
+Use AnalyticsEngine from CreoLang.Analytics;
+
+// IoTDeviceManager Class with Extended Functionality
+class IoTDeviceManager {
+    controller: IoTController
+    dataCollector: DataCollector
+    firmwareUpdater: FirmwareUpdater
+    security: SecurityModule
+    healthMonitor: DeviceHealthMonitor
+    networkOptimizer: NetworkOptimizer
+    analytics: AnalyticsEngine
+    devices: List[IoTDevice]
+
+    constructor() {
+        this.controller = new IoTController()
+        this.dataCollector = new DataCollector()
+        this.firmwareUpdater = new FirmwareUpdater()
+        this.security = new SecurityModule()
+        this.healthMonitor = new DeviceHealthMonitor()
+        this.networkOptimizer = new NetworkOptimizer()
+        this.analytics = new AnalyticsEngine()
+        this.devices = []
+    }
+
+    func addDevice(device: IoTDevice) {
+        this.devices.append(device)
+        this.controller.registerDevice(device)
+        this.healthMonitor.addDevice(device)
+    }
+
+    func collectAndAnalyzeData() {
+        for device in this.devices {
+            let data = this.dataCollector.collectDataFrom(device)
+            let analysis = this.analytics.analyze(data)
+            Console.log("Data Analysis for \(device.id): \(analysis)")
+        }
+    }
+
+    func updateDeviceFirmware(deviceId: String, firmwareVersion: String) {
+        let device = this.devices.find(device => device.id == deviceId)
+        if device != nil {
+            this.firmwareUpdater.update(device, firmwareVersion)
+            this.security.enforceLatestSecurityStandards(device)
+        }
+    }
+
+    func optimizeNetworkPerformance() {
+        this.networkOptimizer.optimizeFor(this.devices)
+    }
+
+    func reportDeviceHealth() {
+        let healthReports = this.healthMonitor.generateReports(this.devices)
+        Console.log("Device Health Reports: \(healthReports)")
+    }
+}
+
+// IoTDevice Class with Enhanced Capabilities
+class IoTDevice {
+    id: String
+    firmwareVersion: String
+
+    constructor(id: String, firmwareVersion: String) {
+        this.id = id
+        this.firmwareVersion = firmwareVersion
+    }
+
+    func collectData() -> String {
+        // Advanced logic to collect data from sensors
+    }
+
+    func updateFirmware(version: String) {
+        this.firmwareVersion = version
+        // Enhanced firmware update logic
+    }
+}
+
+// Main Execution
+func main() {
+    let manager = new IoTDeviceManager()
+    manager.addDevice(new IoTDevice("device1", "1.0"))
+
+    manager.collectAndAnalyzeData()
+    manager.updateDeviceFirmware("device1", "1.1")
+    manager.optimizeNetworkPerformance()
+    manager.reportDeviceHealth()
+}
+
+          main()
