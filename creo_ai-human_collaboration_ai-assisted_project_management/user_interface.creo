@@ -1,0 +1,13 @@
+// UserInterface
+
+class UserInterface {
+    var uiComponents: [UIComponent]
+
+    func buildInterface() {
+        // Logic to build a user-friendly interface
+    }
+
+    func updateInterface(userInput: UserInput) {
+        // Update the UI based on user interactions
+    }
+}
