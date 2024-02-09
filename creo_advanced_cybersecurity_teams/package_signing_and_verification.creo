@@ -1,0 +1,10 @@
+// Pseudocode for package signing and verification
+
+func signPackage(package, authorKey) {
+    var signedPackage = SecurityModule.signWithKey(package, authorKey)
+    return signedPackage
+}
+
+func verifyPackage(package) -> Bool {
+    return SecurityModule.verifySignature(package)
+}
