@@ -1,0 +1,6 @@
+// File: src/voiceControl/voiceOperatedWallet.creo
+
+func addVoiceControlCapabilities(wallet: Wallet) {
+    // Enable voice commands for wallet operations using NLP
+    wallet.activateVoiceControl()
+}
