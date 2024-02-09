@@ -1,0 +1,6 @@
+// File: src/xr/xrWalletInterface.creo
+
+func developXrWalletInterface(wallet: Wallet) {
+    // Create an XR-based interface for an immersive and interactive wallet experience
+    wallet.setExtendedRealityInterface()
+}
