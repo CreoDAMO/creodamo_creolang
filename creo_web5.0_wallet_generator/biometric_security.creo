@@ -1,0 +1,6 @@
+// File: src/security/biometricSecurity.creo
+
+func addBiometricSecurity(wallet: Wallet) {
+    // Integrate biometric authentication methods for wallet access
+    wallet.enableBiometricAuthentication()
+}
