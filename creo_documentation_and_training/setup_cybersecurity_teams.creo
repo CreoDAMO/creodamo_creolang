@@ -1,0 +1,5 @@
+func setupCybersecurityTeams() {
+    RedTeam.setup()
+    BlueTeam.setup()
+    PurpleTeam.initiateCollaboration(RedTeam, BlueTeam)
+}
