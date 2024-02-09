@@ -1,0 +1,5 @@
+// File: src/security/biometricAuthentication.creo
+
+func enableBiometricAuthentication() {
+    // Logic to implement biometric-based security measures
+}
