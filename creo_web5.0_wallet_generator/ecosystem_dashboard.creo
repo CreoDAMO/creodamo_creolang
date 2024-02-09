@@ -1,0 +1,6 @@
+// File: src/analytics/ecosystemDashboard.creo
+
+func createEcosystemAnalyticsDashboard(wallet: Wallet) {
+    // Develop a dashboard for extensive analytics on the crypto market and personal finance trends
+    wallet.launchAnalyticsDashboard()
+}
