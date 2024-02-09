@@ -1,0 +1,6 @@
+// File: src/cloud/cloudSyncBackup.creo
+
+func enableCloudSyncAndBackup(wallet: Wallet) {
+    // Implement cloud-based syncing and backup for wallet data
+    wallet.activateCloudSync()
+}
