@@ -1,0 +1,6 @@
+// File: src/payment/paymentGatewayIntegration.creo
+
+func integrateGlobalPaymentGateways(wallet: Wallet) {
+    // Connect wallet with various global payment gateways for easy currency conversions
+    wallet.addPaymentGatewaySupport()
+}
