@@ -1,0 +1,6 @@
+// File: src/ai/personalization.creo
+
+func personalizeWalletExperience(wallet: Wallet) {
+    // Use AI to offer personalized financial insights and recommendations
+    wallet.applyAIPersonalization()
+}
