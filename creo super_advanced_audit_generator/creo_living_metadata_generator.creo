@@ -1,0 +1,6 @@
+// File: src/nft/mod.creo
+
+func createNFT(owner: String, initialMetadata: Metadata) -> NFT {
+    // Logic to create a new NFT with initial metadata
+    return new NFT(owner, initialMetadata)
+}
