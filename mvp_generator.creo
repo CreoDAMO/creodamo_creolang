@@ -1,0 +1,35 @@
+// File: src/generator/mod.creo
+
+func generateProject(templateName: String, projectName: String, config: Config) {
+    var template = loadTemplate(templateName)
+    var customizedProject = applyConfigToTemplate(template, config)
+    saveProject(customizedProject, projectName)
+    postSetupInitialization(projectName)
+    initializeVersionControl(projectName, config)
+}
+
+func loadTemplate(templateName: String) -> Template {
+    // Enhanced logic to provide a visual selection of templates
+    return TemplateSelector.showVisualSelection(templateName)
+}
+
+func applyConfigToTemplate(template: Template, config: Config) -> Project {
+    // Advanced dynamic customization based on user input
+    return TemplateCustomizer.customize(template, config)
+}
+
+func saveProject(project: Project, projectName: String) {
+    // Save the project to disk with additional error handling
+    ProjectSaver.saveToDisk(project, projectName)
+}
+
+func postSetupInitialization(projectName: String) {
+    // Run post-setup scripts like environment setup
+    PostSetupRunner.execute(projectName)
+}
+
+func initializeVersionControl(projectName: String, config: Config) {
+    if config.useVersionControl {
+        VersionControlInitializer.initGit(projectName)
+    }
+}
