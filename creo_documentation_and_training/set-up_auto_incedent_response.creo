@@ -1,0 +1,4 @@
+func setupAutoIncidentResponse() {
+    let responseSystem = new AutomatedResponseSystem()
+    responseSystem.activate()
+}
