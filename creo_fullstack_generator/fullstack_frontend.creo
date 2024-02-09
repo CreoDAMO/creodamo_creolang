@@ -1,0 +1,6 @@
+// File: src/frontend/mod.creo
+
+func generateFrontend(templateName: String, config: Config) -> FrontendCode {
+    // Logic to generate front-end code based on the selected template and config
+    return new FrontendCode(generatedCode)
+}
