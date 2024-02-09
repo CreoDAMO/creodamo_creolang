@@ -1,0 +1,6 @@
+// File: src/ai/anomalyDetection.creo
+
+func integrateAnomalyDetection(wallet: Wallet) {
+    // Deploy machine learning models for real-time anomaly detection in transactions
+    wallet.enableAnomalyDetection()
+}
