@@ -1,0 +1,6 @@
+// File: src/ui/customizableInterface.creo
+
+func createCustomizableInterface(wallet: Wallet) {
+    // Develop a UI that users can personalize to their liking
+    wallet.setCustomizableUI()
+}
