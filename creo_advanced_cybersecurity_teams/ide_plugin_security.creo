@@ -1,0 +1,8 @@
+// Pseudocode for updating IDE plugin
+
+func updateIdePlugin() {
+    var latestVersion = PluginManager.getLatestVersion("CreoLangPlugin")
+    if PluginManager.isUpdateAvailable(latestVersion) {
+        PluginManager.updatePlugin(latestVersion)
+    }
+}
