@@ -1,0 +1,6 @@
+// File: src/nft/walletIntegration.creo
+
+func addNftSupport(wallet: Wallet) {
+    // Enable the wallet to handle NFT transactions and storage
+    wallet.includeNftCapabilities()
+}
