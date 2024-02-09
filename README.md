@@ -5258,6 +5258,7 @@ func generateFrontend(templateName: String, config: Config) -> FrontendCode {
 # Backend Generation Logic
 Implementing the functionality to create back-end structures and functionalities.
 
+```creo
 // File: src/backend/mod.creo
 
 func generateBackend(templateName: String, config: Config) -> BackendCode {
@@ -5269,6 +5270,7 @@ func generateBackend(templateName: String, config: Config) -> BackendCode {
 # Database Integration
 Creating templates for integrating various databases.
 
+```creo
 // File: src/database/mod.creo
 
 func setupDatabase(databaseType: String, config: Config) {
@@ -5279,6 +5281,7 @@ func setupDatabase(databaseType: String, config: Config) {
 # API Generation
 Automating the creation of RESTful or GraphQL APIs.
 
+```creo
 // File: src/api/mod.cl
 
 func generateApi(config: Config) -> ApiCode {
