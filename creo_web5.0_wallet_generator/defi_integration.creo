@@ -1,0 +1,6 @@
+// File: src/defi/defiIntegration.creo
+
+func connectWalletToDeFiPlatforms(wallet: Wallet) {
+    // Link wallet to multiple DeFi services for expanded financial activities
+    wallet.integrateWithDeFi()
+}
