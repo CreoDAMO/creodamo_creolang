@@ -1,0 +1,6 @@
+// File: src/walletCore/walletRecovery.creo
+
+func setupWalletRecoverySystem(wallet: Wallet) {
+    // Establish a robust and accessible wallet recovery mechanism
+    wallet.implementRecoverySystem()
+}
