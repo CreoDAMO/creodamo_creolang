@@ -1,0 +1,6 @@
+// File: src/blockchain/smartContractIntegration.creo
+
+func integrateSmartContracts(wallet: Wallet) {
+    // Add smart contract capabilities to the wallet for enhanced functionality
+    wallet.addSmartContractSupport()
+}
