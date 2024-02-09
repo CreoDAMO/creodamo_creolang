@@ -1,0 +1,4 @@
+func deployQuantumResistantEncryption() {
+    let encryptionModule = new QuantumEncryptionModule()
+    encryptionModule.deploy()
+}
