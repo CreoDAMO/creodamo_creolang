@@ -1,0 +1,6 @@
+// File: src/walletCore/multiCurrencySupport.creo
+
+func addMultiCurrencySupport(wallet: Wallet) {
+    // Logic to enable support for various cryptocurrencies and fiat currencies
+    wallet.enableMultiCurrency()
+}
