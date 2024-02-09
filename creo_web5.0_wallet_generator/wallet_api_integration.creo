@@ -1,0 +1,6 @@
+// File: src/api/walletApiIntegration.creo
+
+func provideApiForIntegration(wallet: Wallet) -> WalletApi {
+    // Offer APIs for developers to integrate wallet functionalities into their applications
+    return new WalletApi(wallet)
+}
