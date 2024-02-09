@@ -5243,9 +5243,10 @@ func developXrWalletInterface(wallet: Wallet) {
 
 # Creo FullStack Generator
 
-Frontend Generation Logic
+# Frontend Generation Logic
 Developing logic to generate front-end components based on user preferences.
 
+```creo
 // File: src/frontend/mod.creo
 
 func generateFrontend(templateName: String, config: Config) -> FrontendCode {
