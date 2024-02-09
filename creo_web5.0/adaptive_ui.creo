@@ -1,0 +1,6 @@
+// File: src/ui/adaptiveUi.creo
+
+func developAdaptiveUI() -> AdaptiveUI {
+    // Build a UI that adapts to user preferences and behaviors over time
+    return new AdaptiveUI()
+}
