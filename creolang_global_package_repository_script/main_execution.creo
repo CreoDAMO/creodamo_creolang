@@ -1,0 +1,16 @@
+func main() {
+    // Initialize and start the repository with all modules
+    let repo = new GlobalPackageRepository()
+    repo.initializeAllModules()
+
+    // Demonstrate key features of the repository
+    repo.demoCommunityEngagement()
+    repo.demoCollaborativeDevelopment()
+    // More demonstrations...
+
+    // Ensure the repository is running smoothly
+    repo.monitorRepositoryHealth()
+}
+
+// Execute the main function
+main()
