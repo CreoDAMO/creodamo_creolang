@@ -1,0 +1,6 @@
+// File: src/blockchain/crossChainCompatibility.creo
+
+func enableCrossChainCompatibility(wallet: Wallet) {
+    // Logic to facilitate interactions across different blockchain networks
+    wallet.setCrossChainFunctionality()
+}
