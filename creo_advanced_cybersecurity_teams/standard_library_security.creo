@@ -1,0 +1,8 @@
+// Pseudocode for auditing standard library
+
+func auditStandardLibrary() {
+    var auditReport = SecurityAuditor.auditLibrary("CreoLangStdLib")
+    if auditReport.hasIssues() {
+        raiseSecurityConcerns(auditReport)
+    }
+}
