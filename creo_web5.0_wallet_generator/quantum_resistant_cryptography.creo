@@ -1,0 +1,6 @@
+// File: src/security/quantumResistantCryptography.creo
+
+func implementQuantumResistantSecurity(wallet: Wallet) {
+    // Integrate quantum-resistant cryptographic algorithms for enhanced security
+    wallet.applyQuantumResistantCryptography()
+}
